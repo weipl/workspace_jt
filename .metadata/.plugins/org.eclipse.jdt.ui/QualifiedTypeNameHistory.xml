@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="com.jt.common.mapper.SysMapper"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="com.jt.manage.service.UserService"/>
-<fullyQualifiedTypeName name="com.jt.manage.pojo.User"/>
 <fullyQualifiedTypeName name="com.alibaba.druid.stat.TableStat.Mode"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
@@ -16,11 +14,13 @@
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 <fullyQualifiedTypeName name="com.jt.common.service.BaseService"/>
-<fullyQualifiedTypeName name="com.jt.manage.pojo.ItemCat"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.jt.manage.mapper.ItemCatMapper"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.jt.manage.service.ItemCatService"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="com.jt.common.mapper.SysMapper"/>
+<fullyQualifiedTypeName name="com.jt.manage.pojo.ItemCat"/>
+<fullyQualifiedTypeName name="com.jt.manage.pojo.User"/>
 </qualifiedTypeNameHistroy>
