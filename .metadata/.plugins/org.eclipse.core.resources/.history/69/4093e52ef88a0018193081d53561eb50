@@ -1,0 +1,12 @@
+package com.jt.manage.pojo;
+
+import java.util.Date;
+
+import com.jt.common.po.BasePojo;
+
+public class User extends BasePojo{
+	private Integer id;
+	private String name;
+	private Date birthday;
+	private String address;
+}

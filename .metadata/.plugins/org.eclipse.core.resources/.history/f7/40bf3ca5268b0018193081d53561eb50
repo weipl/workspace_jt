@@ -1,0 +1,8 @@
+package com.jt.manage.service;
+
+import com.jt.common.service.BaseService;
+import com.jt.manage.pojo.ItemCat;
+
+public class ItemCatServiceImpl extends BaseService<ItemCat>{
+
+}

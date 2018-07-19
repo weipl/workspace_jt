@@ -1,0 +1,19 @@
+package com.jt.manage.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.jt.common.service.BaseService;
+import com.jt.manage.mapper.ItemCatMapper;
+import com.jt.manage.pojo.ItemCat;
+
+public class ItemCatServiceImpl extends BaseService<ItemCat>{
+	//关联ItemCatmapper
+	@Autowired
+	private ItemCatMapper itemCatMapper;
+	
+	public List<ItemCat> findAll(){
+		return itemCatMapper.findAll();
+	}
+}

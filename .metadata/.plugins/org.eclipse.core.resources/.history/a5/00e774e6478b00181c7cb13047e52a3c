@@ -1,0 +1,8 @@
+package com.jt.manage.mapper;
+
+import com.jt.common.mapper.SysMapper;
+
+
+public interface UserMapper extends SysMapper<User>{
+
+}
