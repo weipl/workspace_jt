@@ -1,6 +1,0 @@
-package com.jt.manage.service;
-
-public interface UserService {
-	//查询所有
-	public List<User> queryAll();
-}

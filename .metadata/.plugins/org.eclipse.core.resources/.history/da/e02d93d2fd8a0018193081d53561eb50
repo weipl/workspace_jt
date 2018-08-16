@@ -1,9 +1,0 @@
-package com.jt.manage.controller;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class UserController {
-	//1、注入UserService
-	public UserService userService;
-}

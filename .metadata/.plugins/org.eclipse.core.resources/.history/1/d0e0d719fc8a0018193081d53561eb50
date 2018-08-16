@@ -1,8 +1,0 @@
-package com.jt.manage.service;
-
-import com.jt.common.service.BaseService;
-import com.jt.manage.pojo.User;
-
-public class UserServiceImpl extends BaseService<User>{
-
-}

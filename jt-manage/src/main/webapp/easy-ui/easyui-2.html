@@ -20,9 +20,13 @@
 		function onload(){
 			$('#p').progressbar({ value:i++});
 			if(i<=100){
+				/*js原生提供的函数,延时加载
+					参数1.延时加载的动作
+					参数2.延时加载的时间  单位毫秒
+				*/
 				setTimeout(function(){
 					onload();
-				}, 100)
+				}, 1)
 			}
 		}
 	})

@@ -1,7 +1,0 @@
-package com.jt.manage.service;
-
-import com.jt.common.service.BaseService;
-
-public class UserServiceImpl extends BaseService<User>{
-
-}

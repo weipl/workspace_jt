@@ -1,7 +1,0 @@
-package com.jt.manage.pojo;
-
-import com.jt.common.po.BasePojo;
-
-public class User extends BasePojo{
-
-}

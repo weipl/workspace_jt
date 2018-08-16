@@ -17,19 +17,19 @@
    <div data-options="region:'west',title:'菜单',split:true" style="width:10%;">
    
   	<ul class="easyui-tree">
-  	<li><span>商品管理</span>
-  	<ul>
-  		<li><a href="/page/item-list">商品查询</a></li>
-  		<li>商品新增</li>
-  		<li>商品更新</li>
-  	</ul>
-  	</li>
-  	<li><span>内容管理</span>
-  	<ul>
-  		<li>内容新增</li>
-  		
-  	</ul>
-  	</li>
+	  	<li><span>商品管理</span>
+		  	<ul>
+		  		<li><a href="/page/item-list">商品查询</a></li>
+		  		<li>商品新增</li>
+		  		<li>商品更新</li>
+		  	</ul>
+		  	</li>
+		  	<li><span>内容管理</span>
+		  	<ul>
+		  		<li>内容新增</li>
+		  		
+		  	</ul>
+	  	</li>
   	</ul>
    
    </div>

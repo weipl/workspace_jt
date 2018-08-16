@@ -6,15 +6,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class IndexController {
-	//跳转到后台首页
+	
+	//跳转后台首页      /
 	@RequestMapping("/index")
-	public String index() {
+	public String index(){
+		
 		return "index";
 	}
 	
+	//实现页面的通用跳转
 	@RequestMapping("/page/{moduleName}")
-	public String index(@PathVariable String moduleName) {
+	public String module(@PathVariable String moduleName){
+		
 		return moduleName;
 	}
+	
+	
+	
 	
 }

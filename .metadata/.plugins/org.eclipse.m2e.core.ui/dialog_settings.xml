@@ -2,20 +2,18 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.jt"/>
+			<item value="com.tedu"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="jt-manage-web"/>
-			<item value="jt-manage"/>
-			<item value="jt-manage-service"/>
-			<item value="jt-manage-mapper"/>
-			<item value="jt-manage-pojo"/>
-			<item value="jt-common"/>
-			<item value="jt-parent"/>
-			<item value="jr-manage-service"/>
-			<item value="com-parent"/>
+			<item value="1803-consumer-feign"/>
+			<item value="1803-provider-user2"/>
+			<item value="1803-provider-jt-user2"/>
+			<item value="1803-provider-jt-cart"/>
+			<item value="1803-cosumer-client"/>
+			<item value="1803-provider-user"/>
+			<item value="1803-eureka-server"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -41,13 +39,29 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.LocalArchetypeCatalogDialog">
+	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="480" key="width"/>
-		<item value="720" key="x"/>
-		<item value="71" key="y"/>
+		<item value="695" key="x"/>
+		<item value="149" key="y"/>
 		<item value="667" key="height"/>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\ws\workspace_jt\demo-quartzExpress"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -74,11 +88,16 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\ws\workspace_jt\jt-cart"/>
+			<item value="D:\ws\workspace_jt\jt-web\src\main\java\com\jt\web\controller\UserController.java"/>
 			<item value="D:\ws\workspace_jt\jt-parent"/>
-			<item value="D:\ws\workspace_jt\jt-common"/>
+			<item value="D:\ws\workspace_jt\jt-manage"/>
 			<item value="D:\ws\workspace_jt\jt-parent\pom.xml"/>
+			<item value="D:\ws\workspace_jt\jt-common"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -91,13 +110,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.jt.manage.web"/>
 		</list>
 		<list key="groupId">
-			<item value="com.jt"/>
 		</list>
 		<list key="artifactId">
-			<item value="jt-manage-web"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

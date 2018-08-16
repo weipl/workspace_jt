@@ -2,4 +2,5 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
   <uri name="http://mybatis.org/dtd/mybatis-3-config.dtd" uri="file:///D:/ws/workspace_jt/DTD/mybatis-3-config.dtd"/>
   <uri name="http://mybatis.org/dtd/mybatis-3-mapper.dtd" uri="file:///D:/ws/workspace_jt/DTD/mybatis-3-mapper.dtd"/>
+  <uri name="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" uri="file:///D:/ws/workspace_jt/DTD/dubbo.xsd"/>
 </catalog>

@@ -7,28 +7,27 @@ import javax.persistence.Table;
 
 import com.jt.common.po.BasePojo;
 
-@Table(name="tb_item_cat")
-public class ItemCat extends BasePojo {
-
-	@Id
+@Table(name="tb_item_cat") //类和表的映射
+public class ItemCat extends BasePojo{
+	
+	@Id	//主键，自增策略
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Integer id;
-	private Integer parentId;
+	private Long id;
+	private Long parentId;
 	private String name;
 	private Integer status;
 	private Integer sortOrder;
-	private Integer isParent;
-	
-	public Integer getId() {
+	private Boolean isParent; //是否为父级
+	public Long getId() {
 		return id;
 	}
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
-	public Integer getParentId() {
+	public Long getParentId() {
 		return parentId;
 	}
-	public void setParentId(Integer parentId) {
+	public void setParentId(Long parentId) {
 		this.parentId = parentId;
 	}
 	public String getName() {
@@ -49,13 +48,12 @@ public class ItemCat extends BasePojo {
 	public void setSortOrder(Integer sortOrder) {
 		this.sortOrder = sortOrder;
 	}
-	public Integer getIsParent() {
+	public Boolean getIsParent() {
 		return isParent;
 	}
-	public void setIsParent(Integer isParent) {
+	public void setIsParent(Boolean isParent) {
 		this.isParent = isParent;
 	}
-	
 	
 	
 }

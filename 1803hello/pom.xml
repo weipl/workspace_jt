@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.tedu</groupId>
+  <artifactId>1803hello</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+      <!-- 引入SpringBoot提供父工程，从本地仓库获取
+D:\java\env\mvn_repo\
+org\springframework\boot\spring-boot-parent\1.5.4.RELEASE  
+   -->
+  <parent>
+  	<groupId>org.springframework.boot</groupId>
+  	<artifactId>spring-boot-starter-parent</artifactId>
+  	<version>1.5.4.RELEASE</version>
+  </parent>
+  
+  <!-- 强制限定版本jdk，设置字符集utf-8 -->
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+  </properties>
+  
+  <!-- 增加依赖，先支持web开发
+D:\java\env\mvn_repo\
+org\springframework\boot\spring-boot-starter-web\1.5.4.RELEASE  
+   -->
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot-starter-web</artifactId>
+  	</dependency>
+  </dependencies>
+  
+  
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.springframework.boot</groupId>
+  			<artifactId>spring-boot-maven-plugin</artifactId>	
+  		</plugin>
+  	</plugins>
+  </build>
+</project>

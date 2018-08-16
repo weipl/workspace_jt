@@ -5,7 +5,7 @@
 	id="jt-manage" version="2.5">
 	<display-name>jt-manage</display-name>
 	
-	<!--定义前端控制器  -->
+	<!--定义前端控制器  servlet第一次请求时才会加载启动   懒加载的方式 -->
 	<servlet>
 		<servlet-name>springmvc</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -14,9 +14,24 @@
 			<!--扫描全部以applicationContext开通的配置文件  -->
 			<param-value>classpath:/spring/applicationContext*.xml</param-value>
 		</init-param>
+		<!--让servlet第一个加载  -->
+		<load-on-startup>1</load-on-startup>
 	</servlet>
 	
-	<!--/表示拦截所有请求和静态资源 不拦截动态资源 -->
+	<!--请求路径
+		1.后缀型路径
+			*.do  *.action  *.html *.lyj
+		2.前缀型路径
+			/service/
+			要求请求必须以/service开头      index.jsp 404
+			
+			/表示拦截所有请求和静态资源 不拦截动态资源
+			
+			restFul结构 请求的格式
+		3.全路径型
+			/service/*.action
+			
+	  -->
 	<servlet-mapping>
 		<servlet-name>springmvc</servlet-name>
 		<url-pattern>/</url-pattern>

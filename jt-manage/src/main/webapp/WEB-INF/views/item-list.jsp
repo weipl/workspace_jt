@@ -47,6 +47,8 @@
         		$.messager.alert('提示','必须选择一个商品才能编辑!');
         		return ;
         	}
+        	
+        	//id1,id2,id3
         	if(ids.indexOf(',') > 0){
         		$.messager.alert('提示','只能选择一个商品!');
         		return ;

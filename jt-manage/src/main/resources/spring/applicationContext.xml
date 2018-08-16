@@ -17,11 +17,14 @@
 	-->
 	<context:component-scan base-package="com.jt"/>
 	
+	
 	<!--引入外部配置文件  由于后期可能会引入多个配置文件 所以采用list的形式  -->
 	<bean id="propertyPlaceholder" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
 			<list>
 				<value>classpath:/property/jdbc.properties</value>
+				<value>classpath:/property/image.properties</value> 
+				<value>classpath:/property/redis.properties</value> 			
 			</list>
 		</property>
 	</bean>
@@ -63,5 +66,4 @@
 		<aop:pointcut expression="execution(* com.jt.manage.service..*.*(..))" id="pc"/>
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="pc"/>
 	</aop:config>
-	
 </beans>
