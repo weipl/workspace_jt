@@ -37,6 +37,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/1803-consumer-feign" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/1803-consumer-feign-hystrix" type="4"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535106442845_8" label="FrameWork" name="FrameWork"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1531885047237_0" label="Window Working Set" name="Aggregate for window 1531885047236"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1533715545349_6" label="Window Working Set" name="Aggregate for window 1533715545349"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1534746692149_8" label="Window Working Set" name="Aggregate for window 1534746692149"/>

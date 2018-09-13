@@ -1,8 +1,5 @@
 package com.jt.web.pojo;
 
-import javax.persistence.Id;
-import javax.persistence.Table;
-
 import com.jt.common.po.BasePojo;
 public class ItemDesc extends BasePojo{
 	private Long itemId;

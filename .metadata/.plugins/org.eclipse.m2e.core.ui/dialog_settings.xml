@@ -49,6 +49,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\ws\workspace_jt\seckill-master"/>
+			<item value="D:\JAVA\BigData\大数据课前资料\jt-logserver"/>
 			<item value="D:\ws\workspace_jt\demo-quartzExpress"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -12,6 +12,14 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\JAVA\串讲资料\day03\framework\MySpringFramework06"/>
+			<item value="D:\JAVA\串讲资料\day03\framework\MySpringFramework05"/>
+			<item value="D:\JAVA\串讲资料\day03\framework\MySpringFramework04"/>
+			<item value="D:\JAVA\串讲资料\day03\framework\MySpringFramework03"/>
+			<item value="D:\JAVA\串讲资料\day03\framework\MySpringFramework02"/>
+			<item value="D:\JAVA\串讲资料\day03\framework\MySpringFramework01"/>
+			<item value="D:\JAVA\串讲资料\day03\framework\mybatis02"/>
+			<item value="D:\JAVA\串讲资料\day03\framework\mybatis01"/>
 			<item value="D:\ws\workspace_jt\dubbo-provider2"/>
 			<item value="D:\ws\workspace_jt\dubbo-provider"/>
 			<item value="D:\ws\workspace_jt\dubbo-consumer"/>

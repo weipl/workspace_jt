@@ -1,10 +1,5 @@
 package com.jt.web.pojo;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
 import com.jt.common.po.BasePojo;
 public class User extends BasePojo{
 	private Long id;	//用户id;
